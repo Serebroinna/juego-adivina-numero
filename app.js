@@ -54,7 +54,7 @@ function generarNumeroSecreto() {
     let numeroAleatorio = Math.floor(Math.random()*numeroMaximo)+1;
 
     if (listaNumeroGenerados.length == numeroMaximo){
-        alert('Ya se sortearon todos los numero posibles');
+        alert('Ya se sortearon todos los numeros posibles');
     } else {
         console.log(numeroAleatorio);
         console.log(listaNumeroGenerados);
